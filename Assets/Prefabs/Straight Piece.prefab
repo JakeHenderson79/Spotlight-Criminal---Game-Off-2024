@@ -94,9 +94,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8932006473141794021}
   - component: {fileID: 6430448801297435629}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -696,9 +696,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8698734773803578542}
   - component: {fileID: 4002566196295544230}
-  m_Layer: 0
-  m_Name: Wall (1)
-  m_TagString: Untagged
+  m_Layer: 8
+  m_Name: Wall
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

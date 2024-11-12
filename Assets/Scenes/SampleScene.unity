@@ -571,6 +571,13 @@ MonoBehaviour:
   previousPiece: {fileID: 0}
   currentConnectors: []
   connectedConnector: {fileID: 0}
+  myLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  upWall: 0
+  downWall: 0
+  leftWall: 0
+  rightWall: 0
 --- !u!50 &1255196154
 Rigidbody2D:
   serializedVersion: 4

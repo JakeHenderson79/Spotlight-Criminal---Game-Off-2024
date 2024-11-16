@@ -8,6 +8,7 @@ TagManager:
   - Connector
   - Robber
   - Wall
+  - Spotlight
   layers:
   - Default
   - TransparentFX

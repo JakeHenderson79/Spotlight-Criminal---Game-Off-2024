@@ -7,7 +7,7 @@ using System.IO;
 
 public class Robber : MonoBehaviour
 {
-   [SerializeField] private Transform connector;
+   [SerializeField] private Transform connector, previousConnector;
     private Rigidbody2D rb;
     private Vector2 movement;
     public float moveSpeed = 1f;
@@ -38,24 +38,35 @@ public class Robber : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-            if(collision.tag == "Piece")
+        if (collision.tag == "Spotlight")
         {
-            previousPiece = currentPiece;
+            Transform tempConnector = connector;
+            Piece tempPiece = currentPiece;
+            currentPiece = previousPiece;
+            previousPiece = tempPiece;       
+            connector = previousConnector;
+            previousConnector = tempConnector;
+            Debug.Log("H");
+        }
+       else if (collision.tag == "Piece")
+        {
+            if (currentPiece != null) { previousPiece = currentPiece; }
+            if(connector != null) {previousConnector = connector;}
             currentPiece = collision.transform.GetComponent<Piece>();
             currentConnectors = new List<Transform>();
-            foreach(Transform connect in currentPiece.Connectors)
+            foreach (Transform connect in currentPiece.Connectors)
             {
                 currentConnectors.Add(connect);
-            }        
+            }
             foundRoute = false;
-          
-            while(!foundRoute)
+
+            while (!foundRoute)
             {
                 int randNum = Random.Range(0, currentConnectors.Count);
                 connector = currentConnectors[randNum];
                 connectedConnector = connector.GetComponent<Connector>().connectedPiece;
-              //  Debug.Log(connector.GetComponent<Connector>().connectedPiece.GetInstanceID() + ", " + previousPiece.GetInstanceID());
-                if(connector.GetComponent<Connector>().connectedPiece.transform == previousPiece.transform && previousPiece != null)
+                //  Debug.Log(connector.GetComponent<Connector>().connectedPiece.GetInstanceID() + ", " + previousPiece.GetInstanceID());
+                if ((connector.GetComponent<Connector>().connectedPiece.transform == previousPiece.transform && previousPiece != null) || connector == previousConnector)
                 {
                     Debug.Log("Remove!");
                     currentConnectors.Remove(connector);
@@ -64,10 +75,11 @@ public class Robber : MonoBehaviour
                 else
                 {
                     Debug.Log("Move!");
-                    foundRoute = true; //Temp line of code, will be replace when spotlights added
+                    foundRoute = true;
                 }
-                
+
             }
         }
+   
     }
 }

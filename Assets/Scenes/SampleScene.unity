@@ -1018,9 +1018,9 @@ GameObject:
   - component: {fileID: 1778356432}
   - component: {fileID: 1778356438}
   - component: {fileID: 1778356437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RobberAI
-  m_TagString: Untagged
+  m_TagString: Robber
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

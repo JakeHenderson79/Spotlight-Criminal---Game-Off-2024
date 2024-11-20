@@ -865,6 +865,7 @@ MonoBehaviour:
   previousPiece: {fileID: 0}
   currentConnectors: []
   connectedConnector: {fileID: 0}
+  foundConnector: 0
   myLayerMask:
     serializedVersion: 2
     m_Bits: 256
@@ -1465,6 +1466,7 @@ MonoBehaviour:
   previousPiece: {fileID: 0}
   currentConnectors: []
   connectedConnector: {fileID: 0}
+  foundConnector: 0
   myLayerMask:
     serializedVersion: 2
     m_Bits: 256
@@ -1722,10 +1724,6 @@ PrefabInstance:
     - target: {fileID: 1791235907481105219, guid: 22d2a616e21234c4aafbc539f2252214, type: 3}
       propertyPath: m_Name
       value: HighValueTreasure
-      objectReference: {fileID: 0}
-    - target: {fileID: 7707449798072812132, guid: 22d2a616e21234c4aafbc539f2252214, type: 3}
-      propertyPath: value
-      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 8208915617430705239, guid: 22d2a616e21234c4aafbc539f2252214, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2002,10 +2000,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MediumValueTreasure
       objectReference: {fileID: 0}
-    - target: {fileID: 5889995470043269428, guid: 6fbc8a257d49aac4899bbd83f778fab9, type: 3}
-      propertyPath: value
-      value: 200
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2058,10 +2052,6 @@ PrefabInstance:
     - target: {fileID: 1631466265828326598, guid: 81815a3dd7714814eb2a405f3efba588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3212537400607357990, guid: 81815a3dd7714814eb2a405f3efba588, type: 3}
-      propertyPath: value
-      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7637364032887369499, guid: 81815a3dd7714814eb2a405f3efba588, type: 3}
       propertyPath: m_Name

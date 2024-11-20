@@ -28,7 +28,8 @@ public class Treasure : MonoBehaviour
         if(collision.tag == "Robber")
         {
             hasBeenStolen = true;
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
+            Destroy(gameObject);
             player.removeScore(value);
         }
     }

@@ -9,6 +9,7 @@ TagManager:
   - Robber
   - Wall
   - Spotlight
+  - Treasure
   layers:
   - Default
   - TransparentFX

@@ -1224,6 +1224,8 @@ MonoBehaviour:
   numOfConnectors: 4
   typeOfPiece: Plus
   connectors: []
+  lightPiece: {fileID: 21300000, guid: c1f4d2f29279c6540b7f09d4472d6f6b, type: 3}
+  darkPiece: {fileID: 21300000, guid: 4378e12b814eceb4aa0abd599d8c65d0, type: 3}
 --- !u!61 &8710243804990284451
 BoxCollider2D:
   m_ObjectHideFlags: 0

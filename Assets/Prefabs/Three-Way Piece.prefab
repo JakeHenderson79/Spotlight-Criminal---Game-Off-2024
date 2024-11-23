@@ -623,6 +623,8 @@ MonoBehaviour:
   numOfConnectors: 3
   typeOfPiece: Three-Way
   connectors: []
+  lightPiece: {fileID: 21300000, guid: 41c17a3625e55cd48906b40c07ba676b, type: 3}
+  darkPiece: {fileID: 21300000, guid: bd9f13f440e297e49ac499a16f61bd5a, type: 3}
 --- !u!61 &3256942716489709308
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -14,8 +14,10 @@ public class LevelSystem : MonoBehaviour
     [SerializeField] private GameObject[] mapPieces;
     [SerializeField] private GameObject[] treasures;
     [SerializeField] private GameObject player;
+    [SerializeField] private GameObject canvas;
     [SerializeField] private int numOfTreasures;
     [SerializeField] private int difficulty;
+    public bool begin;
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +56,19 @@ public class LevelSystem : MonoBehaviour
             points += treasures[i].GetComponent<Treasure>().value;
         }
         player.GetComponent<Player>().Points = points;
+    }
+    public void beginBtn()
+    {
+        begin = true;
+        canvas.transform.Find("Button").gameObject.SetActive(false);
+        foreach (GameObject piece in mapPieces )
+        {
+            if (!piece.transform.Find("Spotlight(Clone)"))
+            {
+                piece.GetComponent<Piece>().lightsOff();
+            }
+            
+        }
     }
     public int Difficulty
     {

@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         canvas.transform.Find("TotalPoints").GetComponent<TextMeshProUGUI>().text = "Value Left: " + points;
+       
     }
     public void removeScore(int value)
     {
@@ -48,6 +49,7 @@ public class Player : MonoBehaviour
         if(rayHit.collider.tag == "Piece" && currentTotalSpotlights < maxSpotlights && !rayHit.collider.transform.Find("Spotlight(Clone)") && rayHit.collider.tag != "Treasure")
         {
             Instantiate(spotlight, rayHit.collider.transform);
+            rayHit.collider.transform.GetComponent<Piece>().lightsOn();
             currentTotalSpotlights++;
         }
     }
@@ -59,6 +61,7 @@ public class Player : MonoBehaviour
         Debug.Log(rayHit.collider.gameObject.name);
         if(rayHit.collider.tag == "Spotlight")
         {
+            rayHit.collider.transform.parent.GetComponent<Piece>().lightsOff();
             Destroy(rayHit.collider.gameObject);
             currentTotalSpotlights--;
         }

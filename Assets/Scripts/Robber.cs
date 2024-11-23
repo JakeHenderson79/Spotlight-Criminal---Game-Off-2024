@@ -17,13 +17,9 @@ public class Robber : MonoBehaviour
     [SerializeField] private Transform connectedConnector;
     private bool foundRoute;
     public bool foundConnector;
-    private Vector3 startCast;
-    private Vector3 upCast ,upCast2;
-    private Vector3 leftCast, leftCast2;
-    private Vector3 rightCast, rightCast2;
-    private Vector3 downCast, downCast2;
     public LayerMask myLayerMask;
-   [SerializeField] private bool upWall, downWall, leftWall, rightWall;
+    [SerializeField] private LevelSystem levelSystem;
+
     
     // Start is called before the first frame update
     void Start()
@@ -34,7 +30,16 @@ public class Robber : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GameObject.Find("Target").transform.position = connector.position;
+        //Use this for potential pause function
+        if (levelSystem.begin)
+        {
+            GameObject.Find("Target").transform.position = connector.position;
+        }
+        else
+        {
+            GameObject.Find("Target").transform.position = transform.position;
+        }
+       
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

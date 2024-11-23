@@ -19,15 +19,14 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Add LevelSystem in scene to save difficulty of different levels and read into here (can decide max spotlights, etc.)
-        maxSpotlights = levelSystem.Difficulty + 1;
-        for(int i = 0; i < levelSystem.NumOfTreasures;i++)
-        {
-            points += levelSystem.Treasures[i].GetComponent<Treasure>().value;
-        }
+        
         mainCamera = Camera.main;
     }
-
+    private void Awake()
+    {
+        //Add LevelSystem in scene to save difficulty of different levels and read into here (can decide max spotlights, etc.)
+        maxSpotlights = levelSystem.Difficulty + 1;
+    }
 
     // Update is called once per frame
     void Update()
@@ -63,5 +62,10 @@ public class Player : MonoBehaviour
             Destroy(rayHit.collider.gameObject);
             currentTotalSpotlights--;
         }
+    }
+    public int Points
+    {
+        get { return points; }
+        set { points = value; }
     }
 }

@@ -13,6 +13,7 @@ public class LevelSystem : MonoBehaviour
      */
     [SerializeField] private GameObject[] mapPieces;
     [SerializeField] private GameObject[] treasures;
+    [SerializeField] private GameObject player;
     [SerializeField] private int numOfTreasures;
     [SerializeField] private int difficulty;
     // Start is called before the first frame update
@@ -36,15 +37,23 @@ public class LevelSystem : MonoBehaviour
                     
                 }
             }
-            
-      
         }
+        initalValue();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    private void initalValue()
+    {
+        int points = 0;
+        for (int i = 0; i < numOfTreasures; i++)
+        {
+            points += treasures[i].GetComponent<Treasure>().value;
+        }
+        player.GetComponent<Player>().Points = points;
     }
     public int Difficulty
     {

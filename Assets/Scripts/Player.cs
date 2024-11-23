@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
         if (!rayHit.collider) return;
 
         Debug.Log(rayHit.collider.gameObject.name);
-        if(rayHit.collider.tag == "Piece" && currentTotalSpotlights < maxSpotlights && !rayHit.collider.transform.Find("Spotlight(Clone)"))
+        if(rayHit.collider.tag == "Piece" && currentTotalSpotlights < maxSpotlights && !rayHit.collider.transform.Find("Spotlight(Clone)") && rayHit.collider.tag != "Treasure")
         {
             Instantiate(spotlight, rayHit.collider.transform);
             currentTotalSpotlights++;

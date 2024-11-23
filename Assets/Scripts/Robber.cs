@@ -47,6 +47,7 @@ public class Robber : MonoBehaviour
             previousPiece = tempPiece;       
             connector = previousConnector;
             previousConnector = tempConnector;
+            foundConnector = false;
             Debug.Log("H");
         }
        else if (collision.tag == "Piece")
@@ -98,17 +99,17 @@ public class Robber : MonoBehaviour
         foundConnector = false;
         foreach (Transform connect in currentConnectors)
         {
-            if (connect.GetComponent<Connector>().connectedPiece.transform.Find("HighValueTreasure"))
+            if (connect.GetComponent<Connector>().connectedPiece.transform.Find("HighValueTreasure") && !connect.GetComponent<Connector>().connectedPiece.transform.Find("Spotlight(Clone)"))
             {
                 tempConnector = connect;
                 tempTreasure = connect.GetComponent<Connector>().connectedPiece.transform.Find("HighValueTreasure").GetComponent<Treasure>();
             }
-            else if (connect.GetComponent<Connector>().connectedPiece.transform.Find("MediumValueTreasure"))
+            else if (connect.GetComponent<Connector>().connectedPiece.transform.Find("MediumValueTreasure") && !connect.GetComponent<Connector>().connectedPiece.transform.Find("Spotlight(Clone)"))
             {
                 tempConnector = connect;
                 tempTreasure = connect.GetComponent<Connector>().connectedPiece.transform.Find("MediumValueTreasure").GetComponent<Treasure>();
             }
-            else if (connect.GetComponent<Connector>().connectedPiece.transform.Find("LowValueTreasure"))
+            else if (connect.GetComponent<Connector>().connectedPiece.transform.Find("LowValueTreasure") && !connect.GetComponent<Connector>().connectedPiece.transform.Find("Spotlight(Clone)"))
             {
                 tempConnector = connect;
                 tempTreasure = connect.GetComponent<Connector>().connectedPiece.transform.Find("LowValueTreasure").GetComponent<Treasure>();
@@ -129,8 +130,16 @@ public class Robber : MonoBehaviour
         }
         if(bestConnector != null)
         {
-            connector = bestConnector;
-            foundConnector = true;
+            if (bestConnector.parent.transform.Find("Spotlight(Clone)"))
+            {
+                foundConnector = false;
+            }
+            else
+            {
+                connector = bestConnector;
+                foundConnector = true;
+            }
+           
         }
         else
         {

@@ -1245,8 +1245,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1255196157}
   - component: {fileID: 1255196156}
-  - component: {fileID: 1255196155}
-  - component: {fileID: 1255196153}
   m_Layer: 6
   m_Name: Robber
   m_TagString: Robber
@@ -1254,77 +1252,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1255196153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1255196152}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a14940b8e728e14ea3bd8ab429e323d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  connector: {fileID: 0}
-  previousConnector: {fileID: 0}
-  moveSpeed: 1
-  currentPiece: {fileID: 0}
-  previousPiece: {fileID: 0}
-  currentConnectors: []
-  connectedConnector: {fileID: 0}
-  foundConnector: 0
-  myLayerMask:
-    serializedVersion: 2
-    m_Bits: 256
-  levelSystem: {fileID: 0}
-  idleSprite: {fileID: 0}
-  caughtSprite: {fileID: 0}
---- !u!61 &1255196155
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1255196152}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 1.92}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1255196156
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1375,7 +1302,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
   m_SpriteSortPoint: 0
 --- !u!4 &1255196157
 Transform:

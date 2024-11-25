@@ -42,6 +42,7 @@ public class Robber : MonoBehaviour
         {
             GameObject.Find("Target").transform.position = transform.position;
         }
+     
        
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -53,7 +54,8 @@ public class Robber : MonoBehaviour
             {
                 levelSystem.begin = false;
                 gameObject.transform.Find("Robber").GetComponent<SpriteRenderer>().sprite = caughtSprite;
-                Debug.Log("Caught!");
+                gameObject.transform.Find("Robber").GetComponent<SpriteRenderer>().maskInteraction = SpriteMaskInteraction.None;
+               Debug.Log("Caught!");
             }
             Transform tempConnector = connector;
             Piece tempPiece = currentPiece;

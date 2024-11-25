@@ -22,7 +22,6 @@ public class LevelSystem : MonoBehaviour
     private float timer;
     private float fiveIncrementTimer =5;
     [SerializeField] private int initalTimer;
-    private bool startTimer;
     public bool begin;
     // Start is called before the first frame update
     void Start()
@@ -53,7 +52,7 @@ public class LevelSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (startTimer)
+        if (begin)
         {
             fiveIncrementTimer -=  Time.deltaTime;
             if( fiveIncrementTimer <= 0)
@@ -78,7 +77,6 @@ public class LevelSystem : MonoBehaviour
     {
         begin = true;
         canvas.transform.Find("Button").gameObject.SetActive(false);
-        startTimer = true;
         foreach (GameObject piece in mapPieces )
         {
             if (!piece.transform.Find("Spotlight(Clone)"))

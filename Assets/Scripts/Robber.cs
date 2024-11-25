@@ -19,12 +19,15 @@ public class Robber : MonoBehaviour
     public bool foundConnector;
     public LayerMask myLayerMask;
     [SerializeField] private LevelSystem levelSystem;
+    [SerializeField] private Sprite idleSprite;
+    [SerializeField] private Sprite caughtSprite;
 
     
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
+        gameObject.transform.Find("Robber").GetComponent<SpriteRenderer>().sprite = idleSprite;
     }
 
     // Update is called once per frame
@@ -46,6 +49,12 @@ public class Robber : MonoBehaviour
 
         if (collision.tag == "Spotlight")
         {
+            if (currentPiece.transform.Find("Spotlight(Clone)") && previousPiece.transform.Find("Spotlight(Clone)"))
+            {
+                levelSystem.begin = false;
+                gameObject.transform.Find("Robber").GetComponent<SpriteRenderer>().sprite = caughtSprite;
+                Debug.Log("Caught!");
+            }
             Transform tempConnector = connector;
             Piece tempPiece = currentPiece;
             currentPiece = previousPiece;
@@ -53,7 +62,7 @@ public class Robber : MonoBehaviour
             connector = previousConnector;
             previousConnector = tempConnector;
             foundConnector = false;
-            Debug.Log("H");
+
         }
        else if (collision.tag == "Piece")
         {
@@ -120,13 +129,7 @@ public class Robber : MonoBehaviour
                 tempTreasure = connect.GetComponent<Connector>().connectedPiece.transform.Find("LowValueTreasure").GetComponent<Treasure>();
             }
  
-            Debug.Log(tempTreasure);
-            //if(bestTreasure == null)
-            //{
-            //    bestConnector = tempConnector;
-            //    bestTreasure = tempTreasure;
 
-            //}else
             if (tempTreasure != null && tempTreasure.value > bestTreasure.value)
             {
                 bestConnector = tempConnector;

@@ -48,9 +48,12 @@ public class Player : MonoBehaviour
         Debug.Log(rayHit.collider.gameObject.name);
         if(rayHit.collider.tag == "Piece" && currentTotalSpotlights < maxSpotlights && !rayHit.collider.transform.Find("Spotlight(Clone)") && rayHit.collider.tag != "Treasure")
         {
-            Instantiate(spotlight, rayHit.collider.transform);
-            rayHit.collider.transform.GetComponent<Piece>().lightsOn();
-            currentTotalSpotlights++;
+            if (!rayHit.collider.transform.Find("LowValueTreasure") && !rayHit.collider.transform.Find("MediumValueTreasure") && !rayHit.collider.transform.Find("HighValueTreasure")) {
+                Instantiate(spotlight, rayHit.collider.transform);
+                rayHit.collider.transform.GetComponent<Piece>().lightsOn();
+                currentTotalSpotlights++;
+            }
+           
         }
     }
     public void OnRightClick(InputAction.CallbackContext context)
@@ -61,7 +64,7 @@ public class Player : MonoBehaviour
         Debug.Log(rayHit.collider.gameObject.name);
         if(rayHit.collider.tag == "Spotlight")
         {
-            rayHit.collider.transform.parent.GetComponent<Piece>().lightsOff();
+            if (levelSystem.begin) {rayHit.collider.transform.parent.GetComponent<Piece>().lightsOff(); }          
             Destroy(rayHit.collider.gameObject);
             currentTotalSpotlights--;
         }

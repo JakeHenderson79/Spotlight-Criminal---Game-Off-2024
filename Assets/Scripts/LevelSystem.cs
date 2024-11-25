@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class LevelSystem : MonoBehaviour
@@ -17,10 +19,15 @@ public class LevelSystem : MonoBehaviour
     [SerializeField] private GameObject canvas;
     [SerializeField] private int numOfTreasures;
     [SerializeField] private int difficulty;
+    private float timer;
+    private float fiveIncrementTimer =5;
+    [SerializeField] private int initalTimer;
+    private bool startTimer;
     public bool begin;
     // Start is called before the first frame update
     void Start()
     {
+        timer = initalTimer; //It will decrease in increments of five
         mapPieces = GameObject.FindGameObjectsWithTag("Piece");
         Debug.Log(mapPieces.Length);
         treasures = GameObject.FindGameObjectsWithTag("Treasure");
@@ -29,7 +36,7 @@ public class LevelSystem : MonoBehaviour
         int rng;
         while (count != numOfTreasures)
         {
-            rng = Random.Range(0, mapPieces.Length);
+            rng = UnityEngine.Random.Range(0, mapPieces.Length);
             if (!mapPieces[rng].transform.Find("LowValueTreasure") && !mapPieces[rng].transform.Find("MediumValueTreasure") && !mapPieces[rng].transform.Find("HighValueTreasure"))
             {
                 if (mapPieces[rng].GetComponent<Piece>().NumOfConnectors > 2)
@@ -46,7 +53,17 @@ public class LevelSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (startTimer)
+        {
+            fiveIncrementTimer -=  Time.deltaTime;
+            if( fiveIncrementTimer <= 0)
+            {
+                timer -= 5;
+                fiveIncrementTimer = 5;
+            }
+    
+        }
+        canvas.transform.Find("TimerTxt").GetComponent<TextMeshProUGUI>().text = "Time Left: " + timer;
     }
     private void initalValue()
     {
@@ -61,6 +78,7 @@ public class LevelSystem : MonoBehaviour
     {
         begin = true;
         canvas.transform.Find("Button").gameObject.SetActive(false);
+        startTimer = true;
         foreach (GameObject piece in mapPieces )
         {
             if (!piece.transform.Find("Spotlight(Clone)"))

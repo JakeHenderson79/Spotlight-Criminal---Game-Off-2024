@@ -53,6 +53,7 @@ public class Robber : MonoBehaviour
             if (currentPiece.transform.Find("Spotlight(Clone)") && previousPiece.transform.Find("Spotlight(Clone)"))
             {
                 levelSystem.begin = false;
+                levelSystem.caught = true;
                 gameObject.transform.Find("Robber").GetComponent<SpriteRenderer>().sprite = caughtSprite;
                 gameObject.transform.Find("Robber").GetComponent<SpriteRenderer>().maskInteraction = SpriteMaskInteraction.None;
                Debug.Log("Caught!");

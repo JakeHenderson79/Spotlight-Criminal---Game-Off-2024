@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
         if (!rayHit.collider) return;
 
         Debug.Log(rayHit.collider.gameObject.name);
-        if(rayHit.collider.tag == "Piece" && currentTotalSpotlights < maxSpotlights && !rayHit.collider.transform.Find("Spotlight(Clone)") && rayHit.collider.tag != "Treasure")
+        if(rayHit.collider.tag == "Piece" && currentTotalSpotlights < maxSpotlights && !rayHit.collider.transform.Find("Spotlight(Clone)") && rayHit.collider.tag != "Treasure" && !levelSystem.caught)
         {
             if (!rayHit.collider.transform.Find("LowValueTreasure") && !rayHit.collider.transform.Find("MediumValueTreasure") && !rayHit.collider.transform.Find("HighValueTreasure")) {
                 Instantiate(spotlight, rayHit.collider.transform);
@@ -62,7 +62,7 @@ public class Player : MonoBehaviour
         var rayHit = Physics2D.GetRayIntersection(mainCamera.ScreenPointToRay(Mouse.current.position.ReadValue()));
         if (!rayHit.collider) return;
         Debug.Log(rayHit.collider.gameObject.name);
-        if(rayHit.collider.tag == "Spotlight")
+        if(rayHit.collider.tag == "Spotlight" && !levelSystem.caught)
         {
             if (levelSystem.begin) {rayHit.collider.transform.parent.GetComponent<Piece>().lightsOff(); }          
             Destroy(rayHit.collider.gameObject);

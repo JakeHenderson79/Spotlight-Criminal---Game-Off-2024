@@ -17,12 +17,15 @@ public class LevelSystem : MonoBehaviour
     [SerializeField] private GameObject[] treasures;
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject canvas;
+    [SerializeField] private GameObject robber;
     [SerializeField] private int numOfTreasures;
     [SerializeField] private int difficulty;
+    [SerializeField] private GameObject breakingIn;
     private float timer;
     private float fiveIncrementTimer =5;
     [SerializeField] private int initalTimer;
     public bool begin;
+    public bool caught;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +49,16 @@ public class LevelSystem : MonoBehaviour
                 }
             }
         }
+        bool robberPlaced = false;
+        while (!robberPlaced)
+        {
+            rng = UnityEngine.Random.Range(0, mapPieces.Length);
+            if (!mapPieces[rng].transform.Find("LowValueTreasure") && !mapPieces[rng].transform.Find("MediumValueTreasure") && !mapPieces[rng].transform.Find("HighValueTreasure")) 
+            { 
+                robber.transform.position = mapPieces[rng].transform.position;
+                robberPlaced = true;
+            }
+        }
         initalValue();
     }
 
@@ -60,7 +73,14 @@ public class LevelSystem : MonoBehaviour
                 timer -= 5;
                 fiveIncrementTimer = 5;
             }
-    
+            if(timer <= 0)
+            {
+                // Win
+            }
+            if(player.GetComponent<Player>().Points <= 0)
+            {
+                // Lose
+            }
         }
         canvas.transform.Find("TimerTxt").GetComponent<TextMeshProUGUI>().text = "Time Left: " + timer;
     }
@@ -85,6 +105,7 @@ public class LevelSystem : MonoBehaviour
             }
             
         }
+        breakingIn.SetActive(true);
     }
     public int Difficulty
     {

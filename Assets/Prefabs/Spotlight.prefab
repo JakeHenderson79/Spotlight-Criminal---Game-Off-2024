@@ -101,6 +101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   robberNear: {fileID: 4642959812045395543, guid: 28dc728e31d12494d86cc08b9afeb9d6, type: 3}
+  leftAudio: {fileID: 0}
+  rightAudio: {fileID: 0}
 --- !u!50 &8210928207603773768
 Rigidbody2D:
   serializedVersion: 4

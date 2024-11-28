@@ -963,6 +963,7 @@ MonoBehaviour:
   numOfTreasures: 0
   difficulty: 1
   breakingIn: {fileID: 529754926}
+  robberNear: {fileID: 4642959812045395543, guid: 28dc728e31d12494d86cc08b9afeb9d6, type: 3}
   initalTimer: 500
   begin: 0
   caught: 0

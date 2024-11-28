@@ -158,4 +158,8 @@ public class Robber : MonoBehaviour
         }
 
     }
+    public Piece CurrentPiece
+    {
+        get { return currentPiece; }
+    }
 }

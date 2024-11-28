@@ -21,6 +21,7 @@ public class LevelSystem : MonoBehaviour
     [SerializeField] private int numOfTreasures;
     [SerializeField] private int difficulty;
     [SerializeField] private GameObject breakingIn;
+    [SerializeField] private Transform robberNear;
     private float timer;
     private float fiveIncrementTimer =5;
     [SerializeField] private int initalTimer;
@@ -106,6 +107,7 @@ public class LevelSystem : MonoBehaviour
             
         }
         breakingIn.SetActive(true);
+        Instantiate(robberNear,robber.GetComponent<Robber>().CurrentPiece.transform.position, transform.rotation);
     }
     public int Difficulty
     {
@@ -119,4 +121,5 @@ public class LevelSystem : MonoBehaviour
     {
         get { return treasures; }
     }
+    
 }

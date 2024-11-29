@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 28858649214448589}
   - component: {fileID: 4155171340527171711}
   - component: {fileID: 100751379903347362}
-  - component: {fileID: 5302140159023167404}
   m_Layer: 5
   m_Name: LevelButton
   m_TagString: Untagged
@@ -121,7 +120,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5302140159023167404}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelSelection, Assembly-CSharp
         m_MethodName: levelOpener
         m_Mode: 1
@@ -133,16 +132,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5302140159023167404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6537744938710862811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: becbe985f8022904c898112dfcebdeb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelName: 

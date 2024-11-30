@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using Pathfinding;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class Robber : MonoBehaviour
 {
@@ -57,6 +58,7 @@ public class Robber : MonoBehaviour
                 gameObject.transform.Find("Robber").GetComponent<SpriteRenderer>().sprite = caughtSprite;
                 gameObject.transform.Find("Robber").GetComponent<SpriteRenderer>().maskInteraction = SpriteMaskInteraction.None;
                Debug.Log("Caught!");
+                StartCoroutine(wait());
             }
             Transform tempConnector = connector;
             Piece tempPiece = currentPiece;
@@ -105,6 +107,11 @@ public class Robber : MonoBehaviour
             }
         }
    
+    }
+    IEnumerator wait()
+    {
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("Win");
     }
     private void checkForTreasures()
     {

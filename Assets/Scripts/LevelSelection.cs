@@ -20,6 +20,7 @@ public class LevelSelection : MonoBehaviour
     {
         if (game.hasUnlockedLevel(levelID))
         {
+            game.currentLevelID = levelID;
         SceneManager.LoadScene(levelID);
         }
 

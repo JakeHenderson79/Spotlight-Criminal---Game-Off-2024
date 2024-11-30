@@ -3,12 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class gameSystem : MonoBehaviour
 {
     public bool[] hasUnlocked = new bool[9];
     [SerializeField] private float volume = 1f;
+    public string currentLevelID;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,4 +43,5 @@ public class gameSystem : MonoBehaviour
     {
         volume = s.value;
     }
+  
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelSystem : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class LevelSystem : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject canvas;
     [SerializeField] private GameObject robber;
+    [SerializeField] private GameObject Timer;
     [SerializeField] private int numOfTreasures;
     [SerializeField] private int difficulty;
     [SerializeField] private GameObject breakingIn;
@@ -31,6 +33,7 @@ public class LevelSystem : MonoBehaviour
     void Start()
     {
         timer = initalTimer; //It will decrease in increments of five
+        Timer = canvas.transform.Find("Timer").gameObject;
         mapPieces = GameObject.FindGameObjectsWithTag("Piece");
         Debug.Log(mapPieces.Length);
         treasures = GameObject.FindGameObjectsWithTag("Treasure");
@@ -44,22 +47,13 @@ public class LevelSystem : MonoBehaviour
             {
                 if (mapPieces[rng].GetComponent<Piece>().NumOfConnectors > 2)
                 {
-                    treasures[count].transform.parent = mapPieces[rng].transform;
-                    treasures[count++].transform.localPosition = new Vector3(0,0,-0.03f);
-                    
+                   
+                        treasures[count].transform.parent = mapPieces[rng].transform;
+                        treasures[count++].transform.localPosition = new Vector3(0, 0, -0.03f);                                                      
                 }
             }
         }
-        bool robberPlaced = false;
-        while (!robberPlaced)
-        {
-            rng = UnityEngine.Random.Range(0, mapPieces.Length);
-            if (!mapPieces[rng].transform.Find("LowValueTreasure") && !mapPieces[rng].transform.Find("MediumValueTreasure") && !mapPieces[rng].transform.Find("HighValueTreasure")) 
-            { 
-                robber.transform.position = mapPieces[rng].transform.position;
-                robberPlaced = true;
-            }
-        }
+       
         initalValue();
     }
 
@@ -76,11 +70,11 @@ public class LevelSystem : MonoBehaviour
             }
             if(timer <= 0)
             {
-                // Win
+                SceneManager.LoadScene("Win");
             }
             if(player.GetComponent<Player>().Points <= 0)
             {
-                // Lose
+                SceneManager.LoadScene("Lose");
             }
         }
         canvas.transform.Find("TimerTxt").GetComponent<TextMeshProUGUI>().text = "Time Left: " + timer;
@@ -97,6 +91,19 @@ public class LevelSystem : MonoBehaviour
     public void beginBtn()
     {
         begin = true;
+        robber.GetComponent<CircleCollider2D>().enabled = true;
+        robber.transform.GetChild(0).gameObject.SetActive(true);
+        bool robberPlaced = false;
+        int rng;
+        while (!robberPlaced)
+        {
+            rng = UnityEngine.Random.Range(0, mapPieces.Length);
+            if (!mapPieces[rng].transform.Find("LowValueTreasure") && !mapPieces[rng].transform.Find("MediumValueTreasure") && !mapPieces[rng].transform.Find("HighValueTreasure"))
+            {
+                robber.transform.position = mapPieces[rng].transform.position;
+                robberPlaced = true;
+            }
+        }
         canvas.transform.Find("Button").gameObject.SetActive(false);
         foreach (GameObject piece in mapPieces )
         {
@@ -107,7 +114,10 @@ public class LevelSystem : MonoBehaviour
             
         }
         breakingIn.SetActive(true);
+        Timer.SetActive(true);
+        Debug.Log(robber.GetComponent<Robber>().CurrentPiece.transform.position);
         Instantiate(robberNear,robber.GetComponent<Robber>().CurrentPiece.transform.position, transform.rotation);
+        
     }
     public int Difficulty
     {

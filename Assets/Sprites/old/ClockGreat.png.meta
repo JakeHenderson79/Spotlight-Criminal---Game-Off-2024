@@ -1,0 +1,2767 @@
+fileFormatVersion: 2
+guid: d5a78e446918ace41bf35c220aee8798
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ClockGreat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f326b6cccefb811499b8c00a4a312bc3
+      internalID: -712841498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c014291257a39448016b06dabf978a
+      internalID: -1801984660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_2
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a39c7ef4771569439a0f2a4659a20c0
+      internalID: -880211898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_3
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa4c3852c15cd344a8ae1acb0f70520
+      internalID: -1459977601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_4
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f84388e15fcbac47b7ee9d496da5337
+      internalID: -1314929107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_5
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a97acf66d30a5f43b53012f9dad6619
+      internalID: -1979472917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_6
+      rect:
+        serializedVersion: 2
+        x: 2890
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf54120a627baab4a979c2fa479fc58f
+      internalID: 2076593703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_7
+      rect:
+        serializedVersion: 2
+        x: 3373
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82aad9ec000df7144ac08628d676c1e1
+      internalID: -1125938383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_8
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a01ca898803644cb55f6b1a04836de
+      internalID: -1334701718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_9
+      rect:
+        serializedVersion: 2
+        x: 4337
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde99a53e9cd57d4180af9ec66f0b947
+      internalID: 933746153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_10
+      rect:
+        serializedVersion: 2
+        x: 4823
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68643719004bef0459ed98973bcbf8ad
+      internalID: 524983988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_11
+      rect:
+        serializedVersion: 2
+        x: 5302
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8b023c2c2a7d44fae065e061123b6b
+      internalID: 1465030983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_12
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda679c9b3e216d4bbc9132e8ff4635d
+      internalID: 110102959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_13
+      rect:
+        serializedVersion: 2
+        x: 6263
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65e16459be87fb4d81148cfa08ba8d2
+      internalID: 1963151510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_14
+      rect:
+        serializedVersion: 2
+        x: 6747
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d8a955a02bca34e95cbb63f025c138
+      internalID: 394994672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_15
+      rect:
+        serializedVersion: 2
+        x: 7227
+        y: 4108
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bc82265fab4f44ca0f925672b8005c
+      internalID: -140836369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3520
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498f44b8c3519594d858aab58209c881
+      internalID: -2092156295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_17
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3520
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22028ab164ae6fc4bbfc62bfd57caf1f
+      internalID: -359728938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_18
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 3520
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff313e31041d4f47bc72a6fbec08d29
+      internalID: -13819277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_19
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 3520
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b6bb1705daaee4fab1d00aa6b485c8
+      internalID: 520357054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_20
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 3520
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d184a0310fd8545804573b9b234140
+      internalID: -92297914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_21
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 3520
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d03e643c6c41f41a74abf2b94a66ec
+      internalID: -621937534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_22
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 3520
+        width: 484
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60037de2131812d4d91ddf56ed2a358c
+      internalID: -249499320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_23
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 3520
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01926018d1f5daf42b72b410f69ecd73
+      internalID: -780974992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_24
+      rect:
+        serializedVersion: 2
+        x: 3853
+        y: 3520
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0a9a322d64bc84d84f02ec9b893a2b
+      internalID: 1333106552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_25
+      rect:
+        serializedVersion: 2
+        x: 4334
+        y: 3520
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8d5a2e484b67a4587e9a938e910fa2
+      internalID: -1248147847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_26
+      rect:
+        serializedVersion: 2
+        x: 4817
+        y: 3520
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e646dabc5386214eae66e7dbcec6255
+      internalID: 132342966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_27
+      rect:
+        serializedVersion: 2
+        x: 5298
+        y: 3520
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c953ec1324c66a24eafa45c24d576974
+      internalID: 425067468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_28
+      rect:
+        serializedVersion: 2
+        x: 5783
+        y: 3520
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1157a7ea146034a4d8d31a04316704e3
+      internalID: -311572482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_29
+      rect:
+        serializedVersion: 2
+        x: 6264
+        y: 3520
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea72d5cde72180f468f9943a5e7469fc
+      internalID: -867496621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_30
+      rect:
+        serializedVersion: 2
+        x: 6746
+        y: 3520
+        width: 484
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bbd7dbf29c8614090901f8bbefa178
+      internalID: -667105589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_31
+      rect:
+        serializedVersion: 2
+        x: 7229
+        y: 3520
+        width: 475
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98c73ecb6436c346a9e2e83dc67e5d7
+      internalID: -135131986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2932
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b16379640168b24fa4c1ec2df600001
+      internalID: -668667342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2932
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869c4c8427346194282424a0070d3196
+      internalID: -200874560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_34
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 2932
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b973fd56f14d444ea68b7a9b8a62e0b
+      internalID: -1378670834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_35
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 2932
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a908d01901be8f44dafc9fa18bde45fb
+      internalID: 723853107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_36
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 2932
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c148cc728ee5075449bb7f4f22ef3496
+      internalID: 1394660738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_37
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 2932
+        width: 484
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fbea68cd1a0bd41b86f68f67e24a29
+      internalID: -1113799912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_38
+      rect:
+        serializedVersion: 2
+        x: 2890
+        y: 2932
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bed408ca42d3d4b8542a58ffa457c2
+      internalID: 1242885759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_39
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 2932
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939467dd159532b42af606bf85c241e2
+      internalID: -1163140074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_40
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 2932
+        width: 479
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1205bf994bf4d9d46ad2c57964d97090
+      internalID: 390015297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_41
+      rect:
+        serializedVersion: 2
+        x: 4334
+        y: 2932
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63348eace3fcf54e89b2da8c53295eb
+      internalID: 1560646916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_42
+      rect:
+        serializedVersion: 2
+        x: 4817
+        y: 2932
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fda38527bb2f7b4dac8626fe0874bfd
+      internalID: 1992038136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_43
+      rect:
+        serializedVersion: 2
+        x: 5298
+        y: 2932
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc0ded631c05fe4ca6efce25882fbcf
+      internalID: 1602578133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_44
+      rect:
+        serializedVersion: 2
+        x: 5781
+        y: 2932
+        width: 484
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf9bdffda440a540824c8955f603623
+      internalID: -534891282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_45
+      rect:
+        serializedVersion: 2
+        x: 6264
+        y: 2932
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2e95fef7237f74eab1eecc7b6c1124
+      internalID: 948058778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_46
+      rect:
+        serializedVersion: 2
+        x: 6745
+        y: 2932
+        width: 485
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3617cc0446dca674bb48dc2b4f1678b6
+      internalID: 494093176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_47
+      rect:
+        serializedVersion: 2
+        x: 7231
+        y: 2929
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0001c90253b6ab4eb239a885ab4d334
+      internalID: -1406912627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2344
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34594fc3cd308a44fb4c57d8fdf93440
+      internalID: -592187361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_49
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2344
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240c79b926730b24d882316c0a3e4b53
+      internalID: 1380712817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_50
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 2344
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c587a84b1ee31549b254c3381ecdee6
+      internalID: 2004926697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_51
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 2344
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08eba182689866f4181d2f97b7c5d56d
+      internalID: 845667448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_52
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 2344
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bce178152b3714b933b66ddf290e52
+      internalID: -975377432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_53
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 2344
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2590bc7a5b9ae094b8e2296303443d4e
+      internalID: -2098760184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_54
+      rect:
+        serializedVersion: 2
+        x: 2890
+        y: 2344
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84f3aadb8fb01a4da862a36e8555844
+      internalID: 340368960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_55
+      rect:
+        serializedVersion: 2
+        x: 3372
+        y: 2344
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7b074050d601a438059c9b987ad261
+      internalID: -2054103606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_56
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 2344
+        width: 479
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836e665d709c04a4e8fef0b146b03c87
+      internalID: 292737629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_57
+      rect:
+        serializedVersion: 2
+        x: 4335
+        y: 2343
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384e8c20b24eec74e96547e7d582f7ab
+      internalID: 1721185863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_58
+      rect:
+        serializedVersion: 2
+        x: 4817
+        y: 2344
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2b21c7f71c10f45873a58f8731620d
+      internalID: -2057104806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_59
+      rect:
+        serializedVersion: 2
+        x: 5297
+        y: 2344
+        width: 485
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fd02b3c24c7ec44b710c17cd5065e1
+      internalID: 1954259610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_60
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 2344
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8de7a3c90d4af4c960d938283717bc
+      internalID: 203279941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_61
+      rect:
+        serializedVersion: 2
+        x: 6264
+        y: 2344
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3564507ca341b2e4eac73af1a4427a9e
+      internalID: -585744751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_62
+      rect:
+        serializedVersion: 2
+        x: 6747
+        y: 2344
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d3aaee610c3cc4db0a4c5ca7291df5
+      internalID: -1525653617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_63
+      rect:
+        serializedVersion: 2
+        x: 7228
+        y: 2344
+        width: 474
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43527302268ec0945a35efed06af5391
+      internalID: -243662257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1756
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ea654f5ab37cd49a1f8f2a4e80fcf9
+      internalID: -1039070046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_65
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1756
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb263f9436ba784dad63d5cfd418d2a
+      internalID: 1264435330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_66
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1756
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065382be7f03bbd47bc3d49f03056531
+      internalID: 1078223708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_67
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1756
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75491bd3f9ba1a74e8243e9f615bed2a
+      internalID: 1415506804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_68
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 1756
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60e4fa79b1a867459ca43c0ae236100
+      internalID: -1793919640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_69
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1756
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dca670dc5ed5774eb112ec28d62dc4a
+      internalID: -942887924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_70
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 1756
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19aa004324e322478228912d6939362
+      internalID: 1939504508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_71
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 1756
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57775e14af269a54c8cf75a578db4447
+      internalID: -1928548320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_72
+      rect:
+        serializedVersion: 2
+        x: 3853
+        y: 1756
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa48abcfe84f664b8890442d46e18af
+      internalID: 1493034293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_73
+      rect:
+        serializedVersion: 2
+        x: 4334
+        y: 1756
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6848e79f8b0522b429929d9efbaa2773
+      internalID: 2021339587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_74
+      rect:
+        serializedVersion: 2
+        x: 4817
+        y: 1756
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b2da08e4a394041ac92ce8bb0adc76
+      internalID: 45126850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_75
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 1756
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff77559f1a1a3384ca473caa70cf9c13
+      internalID: -166665911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_76
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 1756
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2e8d0b77d5bc648bc2b4f00b032e00
+      internalID: 2073715412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_77
+      rect:
+        serializedVersion: 2
+        x: 6266
+        y: 1756
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6020575847a285d48bd7856432929093
+      internalID: -466575135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_78
+      rect:
+        serializedVersion: 2
+        x: 6747
+        y: 1756
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd36a93258cd73408c1bd1b01ba731f
+      internalID: -435272929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_79
+      rect:
+        serializedVersion: 2
+        x: 7228
+        y: 1756
+        width: 484
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ba3ca785ed9874e8b48fccf750bff4
+      internalID: -1116005683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1168
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e85d43af74fc345a05033ec536ccde
+      internalID: -1597583151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_81
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1170
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fba474766a4e7f4fb952dbdff169dca
+      internalID: -1044289755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_82
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1168
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f99b2472f6292447819436614ed9138
+      internalID: -668938379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_83
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1168
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa632649ee7c214da61d85a47e4ee41
+      internalID: -1174811101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_84
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1168
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347b1e1eccd14a241b69e8ec2bb63f17
+      internalID: 1584574004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_85
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 1168
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72217d6ca57f26488bbf1a644599ec1
+      internalID: -103195252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_86
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 1168
+        width: 484
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2b11bcc612cd04fbf2f0fc3084ab17
+      internalID: 876878288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_87
+      rect:
+        serializedVersion: 2
+        x: 3372
+        y: 1168
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5238884021476f64098ebb83e81788fc
+      internalID: 1064930069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_88
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 1168
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475d5e4ababef4b47b371e1f819d20e8
+      internalID: -1899282500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_89
+      rect:
+        serializedVersion: 2
+        x: 4336
+        y: 1168
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fecb5175696a88409568e177fc015e0
+      internalID: -45777138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_90
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 1168
+        width: 485
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deb5931b5309864dabd2ac6f76e77cd
+      internalID: 2000553884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_91
+      rect:
+        serializedVersion: 2
+        x: 5301
+        y: 1168
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4457ef5fc0ccad47928edbd8b26e795
+      internalID: -681831394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_92
+      rect:
+        serializedVersion: 2
+        x: 5783
+        y: 1168
+        width: 480
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e186e52c239695428b1ad2809350537
+      internalID: -1233364289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_93
+      rect:
+        serializedVersion: 2
+        x: 6263
+        y: 1168
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68aa671729332074dbee7f15833e3cbf
+      internalID: -1915647131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_94
+      rect:
+        serializedVersion: 2
+        x: 6745
+        y: 1168
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3179dd2cf79fe44eba687a4119f4ab2
+      internalID: 721282696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_95
+      rect:
+        serializedVersion: 2
+        x: 7230
+        y: 1168
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adeb51e7d181d9429543c51df171bc4
+      internalID: -2048857310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 586
+        width: 480
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429e45db79abbd04caa89c7b11d37cb6
+      internalID: 1588193886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_97
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 586
+        width: 480
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55829b5b7e8d1ae48983f60506efaf7a
+      internalID: -1815397746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_98
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 586
+        width: 479
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5516ba78df67cc442973133d2a120db4
+      internalID: 407785332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_99
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 585
+        width: 482
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3bd7d030b684f429ae3a59a7ad1a32
+      internalID: 515064166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_100
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 587
+        width: 483
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f239f815cb12c694e8e1821d6fc4333f
+      internalID: 802782543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_101
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 586
+        width: 479
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed7378c112a5fa44b604c56e3986111
+      internalID: -1245180890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_102
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 584
+        width: 484
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dceb84d1a3399d4a9e241c376239a89
+      internalID: 846587077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_103
+      rect:
+        serializedVersion: 2
+        x: 3367
+        y: 586
+        width: 481
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a493f93c1f2396449931f96c95d862d
+      internalID: 145770572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_104
+      rect:
+        serializedVersion: 2
+        x: 3853
+        y: 580
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d025333fea0ab45a668e8b4545376a
+      internalID: -2071745889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_105
+      rect:
+        serializedVersion: 2
+        x: 4335
+        y: 580
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea2ac2972a889547bb2a82e1d067ab5
+      internalID: -645670624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_106
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 580
+        width: 486
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25515dda2822a584dbfa1d86ef753392
+      internalID: -1413666609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_107
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 580
+        width: 483
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fe9537191df604ab65c31e39384544
+      internalID: 1175751448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_108
+      rect:
+        serializedVersion: 2
+        x: 5783
+        y: 580
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d794b76fd146448a521ca3109e76d0
+      internalID: -699964399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_109
+      rect:
+        serializedVersion: 2
+        x: 6265
+        y: 580
+        width: 482
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212d25919308b3a4bab744549a7e1252
+      internalID: -543822011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_110
+      rect:
+        serializedVersion: 2
+        x: 6747
+        y: 580
+        width: 484
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e975e2bf517024ca42e1373dfedba8
+      internalID: 1300383726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_111
+      rect:
+        serializedVersion: 2
+        x: 7230
+        y: 580
+        width: 481
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c33b2b583cfaa41bd4b7d920a6ac5e
+      internalID: 42289625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 481
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543dacebcdf4bc541b5ad2a7e830042c
+      internalID: 850935270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_113
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 2
+        width: 481
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c052c565ffb140a357e21c50b0b24
+      internalID: -2023160204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_114
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 3
+        width: 483
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17966b4dc8c0d248a06ac84267129fb
+      internalID: -39700936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_115
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 0
+        width: 482
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f877eed644a287840a6270fba71761c1
+      internalID: 189849413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_116
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 0
+        width: 484
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5953b2c961a810c47b035d83ffb2a51f
+      internalID: 1112289411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_117
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 0
+        width: 484
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ee236ff969935459026b423af729bc
+      internalID: -2142202198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_118
+      rect:
+        serializedVersion: 2
+        x: 2890
+        y: 0
+        width: 483
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8563a44286262a647b1869c19ada50ef
+      internalID: 1754727698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockGreat_119
+      rect:
+        serializedVersion: 2
+        x: 3372
+        y: 0
+        width: 492
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8afc3bcedaf004e903d1f8eedd702d
+      internalID: -1336603193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ClockGreat_0: -712841498
+      ClockGreat_1: -1801984660
+      ClockGreat_10: 524983988
+      ClockGreat_100: 802782543
+      ClockGreat_101: -1245180890
+      ClockGreat_102: 846587077
+      ClockGreat_103: 145770572
+      ClockGreat_104: -2071745889
+      ClockGreat_105: -645670624
+      ClockGreat_106: -1413666609
+      ClockGreat_107: 1175751448
+      ClockGreat_108: -699964399
+      ClockGreat_109: -543822011
+      ClockGreat_11: 1465030983
+      ClockGreat_110: 1300383726
+      ClockGreat_111: 42289625
+      ClockGreat_112: 850935270
+      ClockGreat_113: -2023160204
+      ClockGreat_114: -39700936
+      ClockGreat_115: 189849413
+      ClockGreat_116: 1112289411
+      ClockGreat_117: -2142202198
+      ClockGreat_118: 1754727698
+      ClockGreat_119: -1336603193
+      ClockGreat_12: 110102959
+      ClockGreat_13: 1963151510
+      ClockGreat_14: 394994672
+      ClockGreat_15: -140836369
+      ClockGreat_16: -2092156295
+      ClockGreat_17: -359728938
+      ClockGreat_18: -13819277
+      ClockGreat_19: 520357054
+      ClockGreat_2: -880211898
+      ClockGreat_20: -92297914
+      ClockGreat_21: -621937534
+      ClockGreat_22: -249499320
+      ClockGreat_23: -780974992
+      ClockGreat_24: 1333106552
+      ClockGreat_25: -1248147847
+      ClockGreat_26: 132342966
+      ClockGreat_27: 425067468
+      ClockGreat_28: -311572482
+      ClockGreat_29: -867496621
+      ClockGreat_3: -1459977601
+      ClockGreat_30: -667105589
+      ClockGreat_31: -135131986
+      ClockGreat_32: -668667342
+      ClockGreat_33: -200874560
+      ClockGreat_34: -1378670834
+      ClockGreat_35: 723853107
+      ClockGreat_36: 1394660738
+      ClockGreat_37: -1113799912
+      ClockGreat_38: 1242885759
+      ClockGreat_39: -1163140074
+      ClockGreat_4: -1314929107
+      ClockGreat_40: 390015297
+      ClockGreat_41: 1560646916
+      ClockGreat_42: 1992038136
+      ClockGreat_43: 1602578133
+      ClockGreat_44: -534891282
+      ClockGreat_45: 948058778
+      ClockGreat_46: 494093176
+      ClockGreat_47: -1406912627
+      ClockGreat_48: -592187361
+      ClockGreat_49: 1380712817
+      ClockGreat_5: -1979472917
+      ClockGreat_50: 2004926697
+      ClockGreat_51: 845667448
+      ClockGreat_52: -975377432
+      ClockGreat_53: -2098760184
+      ClockGreat_54: 340368960
+      ClockGreat_55: -2054103606
+      ClockGreat_56: 292737629
+      ClockGreat_57: 1721185863
+      ClockGreat_58: -2057104806
+      ClockGreat_59: 1954259610
+      ClockGreat_6: 2076593703
+      ClockGreat_60: 203279941
+      ClockGreat_61: -585744751
+      ClockGreat_62: -1525653617
+      ClockGreat_63: -243662257
+      ClockGreat_64: -1039070046
+      ClockGreat_65: 1264435330
+      ClockGreat_66: 1078223708
+      ClockGreat_67: 1415506804
+      ClockGreat_68: -1793919640
+      ClockGreat_69: -942887924
+      ClockGreat_7: -1125938383
+      ClockGreat_70: 1939504508
+      ClockGreat_71: -1928548320
+      ClockGreat_72: 1493034293
+      ClockGreat_73: 2021339587
+      ClockGreat_74: 45126850
+      ClockGreat_75: -166665911
+      ClockGreat_76: 2073715412
+      ClockGreat_77: -466575135
+      ClockGreat_78: -435272929
+      ClockGreat_79: -1116005683
+      ClockGreat_8: -1334701718
+      ClockGreat_80: -1597583151
+      ClockGreat_81: -1044289755
+      ClockGreat_82: -668938379
+      ClockGreat_83: -1174811101
+      ClockGreat_84: 1584574004
+      ClockGreat_85: -103195252
+      ClockGreat_86: 876878288
+      ClockGreat_87: 1064930069
+      ClockGreat_88: -1899282500
+      ClockGreat_89: -45777138
+      ClockGreat_9: 933746153
+      ClockGreat_90: 2000553884
+      ClockGreat_91: -681831394
+      ClockGreat_92: -1233364289
+      ClockGreat_93: -1915647131
+      ClockGreat_94: 721282696
+      ClockGreat_95: -2048857310
+      ClockGreat_96: 1588193886
+      ClockGreat_97: -1815397746
+      ClockGreat_98: 407785332
+      ClockGreat_99: 515064166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

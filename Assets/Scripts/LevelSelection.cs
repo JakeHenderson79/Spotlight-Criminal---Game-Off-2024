@@ -4,6 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelSelection : MonoBehaviour
 {
@@ -23,5 +24,12 @@ public class LevelSelection : MonoBehaviour
         }
 
     }
-   
+    private void Update()
+    {
+        if (game.hasUnlockedLevel(levelID))
+        {
+            gameObject.transform.Find("Lock").gameObject.SetActive(false);
+        }
+    }
+
 }

@@ -24,7 +24,8 @@ public class Menu : MonoBehaviour
     }
     public void backButton()
     {
-        GameObject.Find("LevelSelection").SetActive(false);
+        levelSelection.SetActive(false);
+        settings.SetActive(false);
         mainMenu.SetActive(true);
 
     }

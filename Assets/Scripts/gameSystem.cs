@@ -3,18 +3,26 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class gameSystem : MonoBehaviour
 {
     public bool[] hasUnlocked = new bool[9];
+    [SerializeField] private float volume = 1f;
     // Start is called before the first frame update
     void Start()
     {
         hasUnlocked[0] = true;
     }
+    private void Update()
+    {
+        foreach (AudioSource audio in GameObject.FindObjectsOfType(typeof(AudioSource)))
+        {
+            audio.volume = volume;
+        }
+    }
     public string Right(string str, int Length)
     {
-        Debug.Log(str.Length + " " + Length);
         return str.Substring(str.Length - Length);
     }
     public void unlockLevel(string levelID)
@@ -26,9 +34,11 @@ public class gameSystem : MonoBehaviour
     public bool hasUnlockedLevel(string levelID)
     {
         string ID = Right(levelID, 1);
-        Debug.Log(ID);
         int id = Int32.Parse(ID);
-        Debug.Log(id);
         return hasUnlocked[id - 1];
+    }
+    public void updateVolume(Slider s)
+    {
+        volume = s.value;
     }
 }

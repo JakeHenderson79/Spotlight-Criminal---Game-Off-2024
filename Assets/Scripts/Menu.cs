@@ -5,21 +5,18 @@ using UnityEngine;
 public class Menu : MonoBehaviour
 {
     [SerializeField] private GameObject mainMenu;
+    [SerializeField] private GameObject levelSelection;
+    [SerializeField] private GameObject settings;
 
     public void playButton()
     {
         mainMenu.SetActive(false);
-        GameObject.Find("LevelSelection").SetActive(true);
-    }
-    public void tutorialButton()
-    {
-        mainMenu.SetActive(false);
-        GameObject.Find("Tutorial").SetActive(true);
+        levelSelection.SetActive(true);
     }
     public void settingsButton()
     {
         mainMenu.SetActive(false);
-        GameObject.Find("Settings").SetActive(true);
+        settings.SetActive(true);
     }
     public void exitButton()
     {

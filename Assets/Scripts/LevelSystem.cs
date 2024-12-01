@@ -116,7 +116,7 @@ public class LevelSystem : MonoBehaviour
         breakingIn.SetActive(true);
         Timer.SetActive(true);
         Debug.Log(robber.GetComponent<Robber>().CurrentPiece.transform.position);
-        Instantiate(robberNear,robber.GetComponent<Robber>().CurrentPiece.transform.position, transform.rotation);
+        Transform alert = Instantiate(robberNear,new Vector3(robber.transform.position.x, robber.transform.position.y, -2f), transform.rotation);
         
     }
     public int Difficulty

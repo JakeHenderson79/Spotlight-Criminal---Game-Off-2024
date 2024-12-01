@@ -1095,6 +1095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LowValueTreasure
       objectReference: {fileID: 0}
+    - target: {fileID: 7637364032887369499, guid: 81815a3dd7714814eb2a405f3efba588, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

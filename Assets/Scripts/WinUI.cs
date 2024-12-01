@@ -26,6 +26,7 @@ public class WinUI : MonoBehaviour
         system = GameObject.Find("GameSystem").GetComponent<gameSystem>();
         string ID = system.Right(system.currentLevelID, 1);
         int id = Int32.Parse(ID);
+        system.currentLevelID = "Level " + (id+1);
         system.unlockLevel("Level" +  (id+1));
         SceneManager.LoadScene("Level " + (id + 1));
     }

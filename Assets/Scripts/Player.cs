@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         canvas.transform.Find("TotalPoints").GetComponent<TextMeshProUGUI>().text = "Value Left: " + points;
-       
+        canvas.transform.Find("NumSpotlights").GetComponent<TextMeshProUGUI>().text = "Spotlight X" + (maxSpotlights-currentTotalSpotlights);
     }
     public void removeScore(int value)
     {

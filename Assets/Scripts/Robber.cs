@@ -110,7 +110,7 @@ public class Robber : MonoBehaviour
     }
     IEnumerator wait()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
         SceneManager.LoadScene("Win");
     }
     private void checkForTreasures()

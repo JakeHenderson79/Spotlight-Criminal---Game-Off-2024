@@ -31,6 +31,7 @@ public class gameSystem : MonoBehaviour
     {
         string ID = Right(levelID, 1);
         int id = Int32.Parse(ID);
+       
         hasUnlocked[id - 1] = true;
     }
     public bool hasUnlockedLevel(string levelID)
